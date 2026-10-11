@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 用户本地配置（含个人路径，勿上传）
+config.json
+
+# 用户的字幕测试数据与生成结果（含版权/个人内容，勿上传）
+test/
+test_en/
+*_out/
+*_test/
+*_生成/
+
+# 分离产物
+*.英.ass
+*.中.ass
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

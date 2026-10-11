@@ -1,0 +1,20 @@
+[Script Info]
+; SubSplit 演示样例（自建，可自由使用）
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,64,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,40,134
+Style: Note,微软雅黑,52,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,20,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.00,Default,,0,0,0,,你好，欢迎使用 SubSplit。\N{\fn微软雅黑\fs80\i1\c&H999999&}Hello, welcome to SubSplit.
+Dialogue: 0,0:00:03.00,0:00:05.00,Default,,0,0,0,,- 这是一段双语示例字幕。\N{\fn微软雅黑\fs80\i1\c&H999999&}- This is a bilingual sample subtitle.
+Dialogue: 0,0:00:05.00,0:00:07.00,Default,,0,0,0,,2026年 北京\N{\fn微软雅黑\fs80\i1\c&H999999&}2026, Beijing.
+Dialogue: 0,0:00:07.00,0:00:09.00,Default,,0,0,0,,315\N{\fn微软雅黑\fs80\i1\c&H999999&}Three-one-five.
+Dialogue: 0,0:00:09.00,0:00:11.00,Default,,0,0,0,,这是纯中文行，分离英文时会被丢弃。
+Dialogue: 0,0:00:11.00,0:00:13.00,Note,,0,0,0,,{\pos(960,100)}画面上的位置文字（中文模式保留）
